@@ -32,3 +32,4 @@ print(persona3.saludar())  # Hola, soy Ana de Monterrey
 print(f"\n{persona1.nombre} es mayor: {persona1.es_mayor_de_edad()}")
 print(f"{persona2.nombre} es mayor: {persona2.es_mayor_de_edad()}")
 print(f"{persona3.nombre} es mayor: {persona3.es_mayor_de_edad()}")
+![Image Alt](https://github.com/Erico239/PRACTICA1-AUXILIATURA/blob/0bc53e5314aac13ef7b8f85c56b5a7e2347e569f/INTRODUCCION_A_POO/NO_12SCm34NldaB7XAOBv9GH2Xr0AB4e1aS6IJcKqjrhWw5jVFFZlmTQp4dzs7FOCfd1ZTMA4Bm2r7S5AVkgFCFTDScZGuuKPqZY_R-bev7VqGKGaoH77FuJqzUUJkBOJQDSiGxZgSY6EpsBOcHiaJPOIybC4jvXOOdrZWy0.png).
