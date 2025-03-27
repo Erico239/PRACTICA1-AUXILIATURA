@@ -1,0 +1,34 @@
+"""
+Ejercicio:
+1. Crea una clase Persona con nombre, edad y ciudad 
+a) Agrega un metodo para mostrar el saludo: "Hola, soy {nombre} de {ciudad}" 
+b) Crea tres personas y muestra su saludo 
+c) Agrega un metodo para verificar si es mayor de edad
+"""
+
+class Persona:
+    def __init__(self, nombre, edad, ciudad):
+        self.nombre = nombre
+        self.edad = edad
+        self.ciudad = ciudad
+
+    def saludar(self):
+        return f"Hola, soy {self.nombre} de {self.ciudad}"
+
+    def es_mayor_de_edad(self):
+        return self.edad >= 18
+
+# Creacion de tres personas
+persona1 = Persona("Maria", 25, "Ciudad de Mexico")
+persona2 = Persona("Carlos", 17, "Guadalajara")
+persona3 = Persona("Ana", 30, "Monterrey")
+
+# Mostrar saludos
+print(persona1.saludar())  # Hola, soy Maria de Ciudad de Mexico
+print(persona2.saludar())  # Hola, soy Carlos de Guadalajara
+print(persona3.saludar())  # Hola, soy Ana de Monterrey
+
+# Verificar mayoria de edad
+print(f"\n{persona1.nombre} es mayor: {persona1.es_mayor_de_edad()}")
+print(f"{persona2.nombre} es mayor: {persona2.es_mayor_de_edad()}")
+print(f"{persona3.nombre} es mayor: {persona3.es_mayor_de_edad()}")
